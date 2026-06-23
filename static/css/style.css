@@ -1,0 +1,27 @@
+.navbar-brand{
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link{
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #ffd54f !important;
+    transform: translateY(-2px);
+}
+
+.dropdown-menu{
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown-item:hover{
+    background-color: #198754;
+    color: white;
+}
+
+.navbar{
+    z-index: 1000;
+}

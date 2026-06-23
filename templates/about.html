@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+
+<div class="bg-primary text-white py-5">
+    <div class="container">
+        <h1 class="display-5 fw-bold">About Project</h1>
+        <p class="lead mb-0">
+            Learn more about our project and team members.
+        </p>
+    </div>
+</div>
+
+<div class="container py-5">
+
+    <!-- Project Overview -->
+    <div class="row align-items-center g-5 mb-5">
+
+        <div class="col-lg-6">
+            <img
+                src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854"
+                alt="Project Overview"
+                class="img-fluid rounded shadow">
+        </div>
+
+        <div class="col-lg-6">
+            <h2 class="fw-bold mb-3">Project Overview</h2>
+
+            <p class="text-muted">
+                This project is designed to provide an efficient and user-friendly
+                solution for managing and analyzing data. The application focuses
+                on simplicity, performance, and scalability while delivering a
+                modern user experience.
+            </p>
+
+            <p class="text-muted">
+                Technologies used include Python, Flask, Bootstrap, HTML, CSS,
+                JavaScript, and SQL. The project aims to improve productivity,
+                streamline workflows, and provide meaningful insights through
+                intuitive dashboards and reports.
+            </p>
+
+            <div class="mt-4">
+                <span class="badge bg-primary me-2">Flask</span>
+                <span class="badge bg-success me-2">Python</span>
+                <span class="badge bg-info me-2">Bootstrap</span>
+                <span class="badge bg-dark">SQL</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Team Section -->
+    <div class="text-center mb-5">
+        <h2 class="fw-bold">Our Team</h2>
+        <p class="text-muted">
+            Meet the talented individuals behind this project.
+        </p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Team Member 1 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        POOJARI BRUCELEE BABU
+                    </h5>
+
+                    <p class="text-primary fw-semibold">
+                        Project Manager
+                    </p>
+
+                    <p class="text-muted small">
+                        Planning, coordination, and project execution.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        SAMBAPALEM SRINIVASA
+                    </h5>
+
+                    <p class="text-success fw-semibold">
+                        Frontend Developer
+                    </p>
+
+                    <p class="text-muted small">
+                        User interface design and user experience development.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+
+
+                    <h5 class="card-title fw-bold">
+                        PACHIPALA REDDAIAH
+                    </h5>
+
+                    <p class="text-warning fw-semibold">
+                        Backend Developer
+                    </p>
+
+                    <p class="text-muted small">
+                        API development, database management, and server-side logic.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm border-0 text-center">
+                <div class="card-body">
+
+
+                    <h5 class="card-title fw-bold">
+                        RENDADI PRAVEEN KUMAR
+                    </h5>
+
+                    <p class="text-danger fw-semibold">
+                        QA Engineer
+                    </p>
+
+                    <p class="text-muted small">
+                        Testing, quality assurance, and validation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
